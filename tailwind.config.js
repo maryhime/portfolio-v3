@@ -5,23 +5,21 @@ export const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
-    "node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
-    "node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     fontFamily: {
       notes: ['Nanum Pen', 'sans-serif'],
       main: ['Larsseit', 'sans-serif'],
     },
-    colors: {
+    
+    extend: {
+      colors: {
       primary: '#733B8A',
       white: '#FAF9FF',
       textMain: '#111515',
     },
 
-    },
-    extend: {
       gap : {
         xs : '8px',
         sm : '16px',
@@ -55,6 +53,7 @@ module.exports = withMT({
       }
     },
   },
+},
   plugins: [],
 });
 
