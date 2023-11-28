@@ -7,8 +7,9 @@ import { PAGES } from './routes';
 
 import { ThemeProvider } from "@material-tailwind/react";
 import './index.css'
-import { customTheme } from './customTheme';
+
 import HomePage from './pages/HomePage';
+import { customTheme } from './services/provider/customTheme';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

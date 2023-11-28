@@ -43,7 +43,7 @@ module.exports = withMT({
         'text-rectangle': '', //bg-gradient-to-r from-fuchsia-900 to-blue-400
       },
       backgroundImage: {
-        'hero': "url('../public/images/background.png')",
+        'hero': "url('/images/background.png')",
       },
     },
   },
