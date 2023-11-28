@@ -8,6 +8,14 @@ module.exports = withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens:{
+      xs : '640px',
+      sm : '768px',
+      md : '960px',
+      lg : '1120px',
+      xl : '1440px',
+      xxl: '1900px'
+    },
     fontFamily: {
       notes: ['Nanum Pen Script', 'cursive'],
       main: ['Larsseit', 'sans-serif'],
@@ -32,7 +40,7 @@ module.exports = withMT({
         xs: '8px',
         sm: '16px',
         md: '24px',
-        lg: '80px',
+        lg: '50px',
         xl: '100px',
         xxl: '160px',
       },
@@ -45,6 +53,9 @@ module.exports = withMT({
       backgroundImage: {
         'hero': "url('/images/background.png')",
       },
+      transitionProperty: {
+        'backgroundSize': 'background-size'
+    },
     },
   },
 
