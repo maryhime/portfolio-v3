@@ -182,6 +182,16 @@ export const customTheme = {
             active: "active:opacity-[0.85] active:shadow-none",
           },
         },
+        outlined : {
+          purple: {
+            color: "text-transparent",
+            backgroud: 'bg-gradient-to-r from-primary to-[#699FF5] bg-clip-text',
+            hover: "hover:bg-white",
+            border: "border border-[#699FF5]",
+            focus: "focus:opacity-[0.85] focus:shadow-none",
+            active: "active:opacity-[0.85] active:shadow-none",
+          },
+        },
       },
     },
   },

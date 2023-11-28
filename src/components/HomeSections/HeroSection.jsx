@@ -2,6 +2,7 @@ import { Button, Typography } from '@material-tailwind/react'
 import React from 'react'
 import { GeneralSectionLayout } from '../layouts/GeneralSectionLayout'
 import { Icon } from '@iconify/react'
+import { ArrowDownIcon } from '../../utils/CustomIcons'
 
 const HeroSection = () => {
   return (
@@ -34,10 +35,14 @@ const HeroSection = () => {
       </div>
 
       {/* buttons */}
-      <div className="flex  gap-md">
+      <div className="flex flex-col lg:flex-row gap-md ">
         <Button color='purple'>
           <Icon icon="ph:chats-duotone" className="text-white" width='32px' />
           Say Hi
+        </Button>
+        <Button color='purple' variant='outlined'>
+          <ArrowDownIcon/>
+         See Design Works
         </Button>
       </div>
 

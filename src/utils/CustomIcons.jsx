@@ -15,3 +15,31 @@ export const FiverrIcon = () => {
 
   )
 }
+export const ArrowDownIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <path opacity="0.2" d="M4 17L16 29L28 17H22V13H10V17H4Z" fill="url(#paint0_linear_1718_31937)" />
+      <path d="M4 17L16 29L28 17H22V13H10V17H4Z" stroke="url(#paint1_linear_1718_31937)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M22 5H10" stroke="url(#paint2_linear_1718_31937)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M22 9H10" stroke="url(#paint3_linear_1718_31937)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <defs>
+        <linearGradient id="paint0_linear_1718_31937" x1="4" y1="28.9999" x2="28.25" y2="28.9999" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#733B8A" />
+          <stop offset="1" stop-color="#699FF5" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_1718_31937" x1="4" y1="28.9999" x2="28.25" y2="28.9999" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#733B8A" />
+          <stop offset="1" stop-color="#699FF5" />
+        </linearGradient>
+        <linearGradient id="paint2_linear_1718_31937" x1="10" y1="6" x2="22.125" y2="6" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#733B8A" />
+          <stop offset="1" stop-color="#699FF5" />
+        </linearGradient>
+        <linearGradient id="paint3_linear_1718_31937" x1="10" y1="10" x2="22.125" y2="10" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#733B8A" />
+          <stop offset="1" stop-color="#699FF5" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
