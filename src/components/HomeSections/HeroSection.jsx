@@ -1,12 +1,50 @@
-import { Typography } from '@material-tailwind/react'
+import { Button, Typography } from '@material-tailwind/react'
 import React from 'react'
+import { GeneralSectionLayout } from '../layouts/GeneralSectionLayout'
+import { Icon } from '@iconify/react'
 
 const HeroSection = () => {
   return (
-    <div className="bg-hero bg-cover bg-no-repeat min-h-fit py-xxl lg:py-[200px] px-md lg:px-xxl w-full">
-      <Typography variant='h3'>sdfsf</Typography>
-    </div>
-   
+    <GeneralSectionLayout heading={true} isCol={true} gap='gap-lg'>
+      {/* heading */}
+      <div className="flex flex-col ">
+        <Typography
+          variant='h3'
+          color='purple'>
+          sdfsf
+        </Typography>
+
+        <span className='font-main text-[48px] md:text-[102px] font-[800] leading-normal uppercase m-0'>
+          <h1>Design</h1>
+          <Typography variant='h1' color='purple' textGradient
+            className='leading-none w-fit'>
+            <span className='bg-gradient-to-r from-primary to-[#699FF5] bg-[0px_95%] transition-[background-size] duration-[0.5s] ease-in-out p-[0.1% 0px] bg-no-repeat bg-[length:100%_3px] '>
+              Delightful experiences
+            </span>
+          </Typography>
+          {/* <Typography variant='h1' color='primary' textGradient
+          className='leading-none w-fit'>
+          <span className='bg-gradient-to-r from-primary to-[#699FF5] bg-[0px_95%]  p-[0.1% 0px] bg-no-repeat bg-[length:0px_3px] hover:transition-[background-size] hover:duration-[0.5s] hover:ease-in-out hover:bg-[length:100%_3px]'>
+            Delightful experiences
+          </span>
+        </Typography> */}
+          <h1>With empathy for users </h1>
+
+        </span>
+      </div>
+
+      {/* buttons */}
+      <div className="flex  gap-md">
+        <Button color='purple'>
+          <Icon icon="ph:chats-duotone" className="text-white" width='32px' />
+          Say Hi
+        </Button>
+      </div>
+
+
+    </GeneralSectionLayout>
+
+
   )
 }
 
