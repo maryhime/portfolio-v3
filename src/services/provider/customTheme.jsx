@@ -176,7 +176,7 @@ export const customTheme = {
           purple: {
             backgroud: "bg-primary",
             color: "text-white",
-            shadow: "shadow-md shadow-purple-500/20",
+            shadow: "shadow-none",
             hover: "hover:shadow-lg hover:shadow-purple-500/40",
             focus: "focus:opacity-[0.85] focus:shadow-none",
             active: "active:opacity-[0.85] active:shadow-none",

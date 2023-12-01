@@ -12,7 +12,7 @@ const HeroSection = () => {
         <Typography
           variant='h3'
           color='purple'>
-          sdfsf
+          Hi, I'm Mary Therese,
         </Typography>
 
         <span className='font-main text-[48px] md:text-[102px] font-[800] leading-normal uppercase m-0'>
