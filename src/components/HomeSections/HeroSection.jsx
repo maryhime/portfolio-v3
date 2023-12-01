@@ -16,7 +16,7 @@ const HeroSection = () => {
         </Typography>
 
         <span className='font-main text-[48px] md:text-[102px] font-[800] leading-normal uppercase m-0'>
-          <h1>Design</h1>
+          <h1>I Design</h1>
           <Typography variant='h1' color='purple' textGradient
             className='leading-none w-fit'>
             <span className='bg-gradient-to-r from-primary to-[#699FF5] bg-[0px_95%] transition-[background-size] duration-[0.5s] ease-in-out p-[0.1% 0px] bg-no-repeat bg-[length:100%_3px] '>
@@ -35,7 +35,7 @@ const HeroSection = () => {
       </div>
 
       {/* buttons */}
-      <div className="flex flex-col lg:flex-row gap-md ">
+      <div className="flex flex-col lg:flex-row gap-md sm:w-fit ">
         <Button color='purple'>
           <Icon icon="ph:chats-duotone" className="text-white" width='32px' />
           Say Hi
